@@ -78,6 +78,10 @@ public class VitrineApp extends Application {
         public void setPreco(String preco) {
             this.preco = preco;
         }
+
+        public String getDescricao() {
+            return null;
+        }
     }
 
     public class Carrinho {
@@ -132,6 +136,8 @@ public class VitrineApp extends Application {
         columnPreco.setText("Preço");
         tbVitrine.setItems(listItens);
 
+        
+
         AnchorPane.setTopAnchor(txPesquisa, 10.0);
         AnchorPane.setLeftAnchor(txPesquisa, 10.0);
         AnchorPane.setRightAnchor(txPesquisa, 10.0);
@@ -170,8 +176,25 @@ public class VitrineApp extends Application {
                 }
             }
             return itensEncontrados;
+
         }   
 
+        public void listner () {
+           //vie itemApp
+            tbVitrine.getSelectionModel().selectedItemProperty()
+                    .addListener((observable, oldValue, newValue) -> {
+                        if (newValue != null) {
+                            ItensProperty item = tbVitrine.getSelectionModel()
+                                    .getSelectedItem();
+                            Produto produto = new Produto(item.getProduto(),
+                                    String.valueOf(item.getPreco()));
+                            carrinho.AddProduto(produto);
+                            System.out.println(carrinho.getProdutos().size());
+                        }
+                    });
+
+        }
+        
 
     @Override
     public void start(Stage primaryStage) throws Exception {
