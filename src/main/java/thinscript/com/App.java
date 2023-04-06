@@ -1,13 +1,13 @@
 package thinscript.com;
 
 import javafx.application.Application;
-import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontPosture;
 import javafx.stage.Stage;
+import javafx.geometry.Insets;
 
 /**
  * JavaFX App
