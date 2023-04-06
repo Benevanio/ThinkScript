@@ -15,7 +15,8 @@ Em construção
 
 # demo inicial
 
-![Captura de tela de 2023-04-06 11-12-35](https://user-images.githubusercontent.com/78994881/230404046-fd0e7a76-d722-4cbe-bfe3-15256d632a33.png)
+![Captura de tela de 2023-04-06 12-57-41](https://user-images.githubusercontent.com/78994881/230433543-d7044f57-38ce-4e41-a524-00bb3d2b7b80.png)
+
 
 ## Instalação
 
