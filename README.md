@@ -1,6 +1,12 @@
 # ThinkScript
 ****
-Em construção
+Sistema de gerenciamento de livros com interface gráfica de usuário, este sistema consiste em duas telas: Login e Vitrine.
+
+Login: Nesta tela temos a inserção do nome do usuário e a senha, se o nome do usuário e a senha estiverem corretas o usuário será redirecionado para a página da vitrine.
+
+Vitrine: Segunda tela, temos a exibição de produtos em nosso sistema, nome do produto e o preço do mesmo, temos também o campo para realização de pesquisas.
+Os produtos são exibidos em uma tabela, e o input para a pesquisa fica na parte superior desta tabela.
+
 *****
 
 
