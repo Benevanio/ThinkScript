@@ -82,6 +82,10 @@ public class VitrineApp extends Application {
         public String getDescricao() {
             return null;
         }
+
+        public String getImages() {
+            return null;
+        }
     }
 
     public class Carrinho {
@@ -147,11 +151,17 @@ public class VitrineApp extends Application {
 
         Vitrine vitrine = new Vitrine();
         vitrine.AddProduto(new Produto("No game No life", "R$ 19,90"));
-        vitrine.AddProduto(new Produto("KonoSuba", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("KonoSuba", "R$ 22,90"));
         vitrine.AddProduto(new Produto("Sword Art Online", "R$ 19,90"));
-        vitrine.AddProduto(new Produto("Overlord", "R$ 19,90"));
-        vitrine.AddProduto(new Produto("Re:Zero", "R$ 19,90"));
-        vitrine.AddProduto(new Produto("Kimi no na wa", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("Overlord", "R$ 12,90"));
+        vitrine.AddProduto(new Produto("Re:Zero", "R$ 29,90"));
+        vitrine.AddProduto(new Produto("Kimi no na wa", "R$ 39,90"));
+        vitrine.AddProduto(new Produto("Soukugeki no Soma", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("Kuroko no Basket", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("Fure Fura: Amores e desenganos", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("To Love Ru", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("Ataque dos titãs", "R$ 19,90"));
+        vitrine.AddProduto(new Produto("Naruto", "R$ 19,90"));
 
 
         tbVitrine.setItems(listItens);
